@@ -6,3 +6,4 @@ from .userDetailView import UserDetailView
 #from .pruebatutor import pruebaluisjose
 from .ipsListView import IpsList
 from .ipsDetailView import IpsDetail
+from .verifyTokenView import VerifyTokenView

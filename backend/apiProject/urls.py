@@ -28,6 +28,7 @@ urlpatterns = [
     #path('ips/<int:pk>/', views.IpsUpdateView.as_view()),
     #path('pruebatutor/', views.pruebaluisjose),
     
+    path('verifyToken/', views.VerifyTokenView.as_view()),
     
     path('ips/', views.IpsList.as_view()),
     path('ips/<int:pk>/', views.IpsDetail.as_view()),
